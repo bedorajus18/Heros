@@ -20,6 +20,6 @@ class HeroService
     }
     function addHero($pHero)
     {
-        array_push($_listeHeros,$pHero);
+        array_push($this->_listeHeros,$pHero);
     }
 }
